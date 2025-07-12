@@ -225,25 +225,70 @@ button:hover {
     font-weight: bold;
     margin-right: 200px;
 }
-.logo-subtitle{
+
+.logo-subtitle {
     width: 450px;
     text-align: center;
-    margin-left:350px ;
+    margin-left: 350px;
     padding: 10px;
     color: #8987A1;
     font-size: 14px;
 }
-.logo-link{
+
+.logo-link {
     width: 370px;
     display: flex;
-    margin-left:380px ;
+    margin-left: 380px;
     padding: 5px;
     justify-content: space-around;
-   
+
 }
-.logo-link a{
-    
- text-decoration: none;
+
+.logo-link a {
+
+    text-decoration: none;
     color: #8987A1;
     font-size: 14px;
+}
+
+/* users review style */
+.review{
+    background-color: #4d47ff12;
+}
+
+.reviewer-title {
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.cards-item {
+    justify-content: center;
+    display: flex;
+    margin: 20px, 150px;
+    padding-top: 50px;
+}
+
+.card {
+    width: 360px;
+    background-color: white;
+}
+.image{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.card-img{
+    display: flex;
+    gap: 10px;
+}
+.card h4{
+    font-size: 26px;
+}
+.card-img p{
+    padding: 3px;
+}
+.card p{
+     font-size: 12px;
 }
